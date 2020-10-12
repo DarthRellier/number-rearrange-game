@@ -92,16 +92,6 @@ function onClick(x, y) {
   }
 }
 
-function cheat() {
-  model = [
-    [1, 6, 11, 16, 21],
-    [2, 7, 12, 17, 22],
-    [3, 8, 13, 18, 23],
-    [4, 9, 14, 19, 24],
-    [5, 10, 15, null, 20],
-  ];
-  updateView();
-}
 function clear() {
   let clear = document.getElementById("no_move");
   clear.innerText = "";
