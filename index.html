@@ -7,6 +7,9 @@
         height: 80;
         width: 100;
       }
+      body{
+        background-image: linear-gradient(yellow, blueviolet);
+      }
     </style>
   </head>
   <body onload="randomizeBoard()">
@@ -20,7 +23,7 @@
       Use Numbers
     </button>
     <br />
-    <table>
+    <table style="border: royalblue;">
       <tr>
         <td><button id="0_0" onclick="onClick(0, 0)" style="background-color:  red"></button></td>
         <td><button id="1_0" onclick="onClick(1, 0)" style="background-color:  orange"</button></td>
