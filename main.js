@@ -163,7 +163,7 @@ function useH() {
   }
 }
 function playAlert() {
-  alert("Good Job you won!! Press Ctrl(or command) + Shift + R to Play Agian ");
+  alert("Good Job you won!! Press CTRL/CMD + R to Play Agian ");
 }
 
 function randomizeBoard() {
