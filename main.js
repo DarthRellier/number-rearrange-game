@@ -38,7 +38,7 @@ function checkForWin() {
   let win = true;
   let val = 0;
   for (let x = 0 && win == true; x < model.length; x++) {
-    for (let y = 0 && win == true; y < model[x].length; y++) {
+    for (let y = 0 && win == true; y < model.length; y++) {
       let lastVal = val;
       val = model[y][x];
       if (val != null && val < lastVal && lastVal != null) {
