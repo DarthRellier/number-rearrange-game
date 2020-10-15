@@ -23,7 +23,7 @@ let whatColor = {
   22: "orange",
   23: "red",
   24: "orange",
-  null: "black",
+  null: "royalblue",
 };
 let show = false;
 let useHBrew = true;
