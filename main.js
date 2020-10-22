@@ -215,6 +215,8 @@ function cheat() {
       [4, 9, 14, 19, 24],
       [5, 10, 15, 20, null],
     ];
+    code.value = "";
+    code.innerText = "";
     updateView();
   }
 }
